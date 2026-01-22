@@ -1,4 +1,5 @@
 @media screen and (max-width:676px) {
+    /* navigator-bar responsive */
     .nav-container {
             display: flex;
             flex-direction: column;
@@ -12,6 +13,20 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
+        }
+        /* banner part responsive */
+        .banner-section{
+            display: flex;
+            flex-direction: column;
+        }
+        .text-container, .banner-image-container{
+            width: 100%;
+        }
+        .text-container{
+            order: 2;
+        }
+        .banner-image-container{
+            order: 1;
         }
         .banner-cat, .text-container p{
             font-size: 2rem;
@@ -29,4 +44,12 @@
     margin-top: 5px;
     font-family: "Dancing Script", cursive;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+/* .single-product{
+    width: 70%;
+} */
 }
