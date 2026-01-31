@@ -165,3 +165,34 @@ header{
     padding: 2px;
 }
 /* product section end styles here*/
+
+/* Gallery section start styles here*/
+    .gallery-section{
+        /* border: 2px solid tomato; */
+        max-width: 1300px;
+        margin: 0 auto;
+        background-color: #e6e9e6;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    .gallery-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+    }
+
+    .single-gallery img{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    .single-gallery {
+        width: 320px;
+        border: 2px solid red;
+        border-radius: 20px;
+        flex-basis: 320px;
+    }
+/* Gallery section end styles here*/
