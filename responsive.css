@@ -1,55 +1,72 @@
 @media screen and (max-width:676px) {
+
     /* navigator-bar responsive */
     .nav-container {
-            display: flex;
-            flex-direction: column;
-        }
-        .nav-1{
-            display: flex;
-            justify-content: center;
-        }
-        .navigation-link{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
-        /* banner part responsive */
-        .banner-section{
-            display: flex;
-            flex-direction: column;
-        }
-        .text-container, .banner-image-container{
-            width: 100%;
-        }
-        .text-container{
-            order: 2;
-        }
-        .banner-image-container{
-            order: 1;
-        }
-        .banner-cat, .text-container p{
-            font-size: 2rem;
-        }
-        .icons{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-.btn-primary2 {
-    border: 2px solid violet;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    display: block;
-    margin-top: 5px;
-    font-family: "Dancing Script", cursive;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-}
-/* .single-product{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* banner part responsive */
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container,
+    .banner-image-container {
+        width: 100%;
+    }
+
+    .text-container {
+        order: 2;
+    }
+
+    .banner-image-container {
+        order: 1;
+    }
+
+    .banner-cat,
+    .text-container p {
+        font-size: 2rem;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .btn-primary2 {
+        border: 2px solid violet;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        display: block;
+        margin-top: 5px;
+        font-family: "Dancing Script", cursive;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    /* .footer-section {
+        flex-direction: column;
+    } */
+
+    /* .single-product{
     width: 70%;
 } */
 }
